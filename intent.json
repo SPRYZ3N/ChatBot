@@ -1,0 +1,15 @@
+{"intents": 
+[
+  {
+  "tag": "greet",
+  "patterns": ["hello", "hi", "howdy", "mihu", "genie"],
+  "responses": ["I am MIHU, Your Virtual Assistant for PLM related queries.\\n I can help You on below issues"]
+  },
+  {
+  "tag": "DML_document",
+  "patterns": ["This is invalid combination of colour ind", "invalid combination of colour index", "cannot go below assembly", "the child part colour indicator Y, cannot go below assembly with colour ind N", "invalid combination", "invalid colour ind"],
+  "responses": ["Shared the DML process document to update color indicator (Comp code and colour indicator change-Master data DML process)"]
+  },
+]
+}
+#Many tags, patterns and responses have been cleared out so as to not breach company policy. 
