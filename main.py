@@ -50,7 +50,7 @@ def get_response(intents_list, intents_json):
 			break
 	return result
 
-print("Chatbot is up!")
+print("Chatbot is running")
 
 while True:
 	message = input("")
